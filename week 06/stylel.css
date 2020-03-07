@@ -1,0 +1,44 @@
+body {
+	background-color: #A89696;
+}
+h1{
+	color: #E8DA7D;
+	text-align: center;
+}
+p{
+	background-color: #8DEBAB;
+	font-family: 'Spartan';
+	font-size: 22px;
+	text-align: center;
+}
+h2 {
+	color: #E4E2F2;
+	text-align: center;
+}
+header{text-align: center;}
+
+nav {text-align: center;}
+
+/* unvisited link */
+a :link { color: white; 
+background-color: #5600F5;
+padding: 15px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;}
+
+/* visited link */
+a:visited { color: hotpink;
+background-color: #5600F5;
+padding: 15px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block; }
+
+/* mouse over link */
+a:hover {color: lightblue;
+background-color:#5600F5 }
+
+/* selected link */
+a:active { color: green;
+background-color: #5600F5 }

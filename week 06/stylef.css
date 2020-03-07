@@ -1,0 +1,69 @@
+body {
+	background-color: #4CF5E9;
+}
+h1{
+	color: #451A7C;
+	text-align: right;
+}
+.one {
+	background-color: #FF9B9A;
+	font-family: 'Spartan';
+	font-size: 22px;
+	text-align: right;
+}
+.two {
+	background-color: #FF9B9A;
+	font-family: 'Spartan';
+	font-size: 22px;
+	}
+.three {
+	background-color: #FF9B9A;
+	font-family: 'Spartan';
+	font-size: 22px;
+	text-align: right;
+}
+
+h2 {
+	color: #300DA8;
+}
+h3 {
+	color: #A80D29;
+	text-align: right;
+}
+nav {text-align: center;}
+
+.parent {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 5 / 2 / 6; }
+.div2 { grid-area: 2 / 5 / 3 / 6; }
+.div3 { grid-area: 3 / 5 / 4 / 6; }
+
+/* unvisited link */
+a :link { color: white; 
+background-color: #5600F5;
+padding: 15px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;}
+
+/* visited link */
+a:visited { color: hotpink;
+background-color: #5600F5;
+padding: 15px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block; }
+
+/* mouse over link */
+a:hover {color: lightblue;
+background-color:#5600F5 }
+
+/* selected link */
+a:active { color: green;
+background-color: #5600F5 }

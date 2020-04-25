@@ -1,0 +1,107 @@
+body
+{background-color: #70FFF3;
+}
+h1 {color: #B3572B;
+text-align: center;
+font-family: 'Sen';
+}
+h2 {text-align: center;
+font-family: 'Sen';
+color:#B3572B ;
+}
+h3 {text-align: center;
+font-family: 'Sen';
+color:#B3572B ;
+}
+header{text-align: center;
+}
+nav{text-align: center;
+}
+.first {text-align: center;
+color: #FF9F70;
+font-family: 'Oswald';
+}
+.two {background-color: #0092B3;
+}
+.three{background-color:#FFB370;
+text-align: center;
+}
+.four{background-color: #B36B2B;
+text-align: right;
+}
+.five {text-decoration-line: underline; color: #996B25; background-color:#46CC75; text-align: center;
+}
+.six {background-color: white;
+}
+.seven {text-decoration-line: underline; 
+text-decoration-color:#FFB370 ;
+}
+.eight {text-align: center;
+}
+.ten {text-align: center;
+background-color: #B36B2B;
+}
+.twelve {text-align: center;
+background-color: #5600F5;
+}
+
+div.order {font-family: 'Gotu';
+}
+div.small {font-family: 'Gotu';
+}
+div.truth {font-family: 'Gotu';}
+div.desire { width: 924px;
+padding: 10px;
+border: 10px #8A8DFF;
+margin: 0px;
+}
+
+/* unvisited link */
+a :link { color: white; 
+background-color: #5600F5;
+padding: 15px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;}
+
+/* visited link */
+a:visited { color: hotpink;
+background-color: #5600F5;
+padding: 15px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block; }
+
+/* mouse over link */
+a:hover {color: lightblue;
+background-color:#5600F5 }
+
+/* selected link */
+a:active { color: green;
+background-color: #5600F5 }
+
+/* for desktop */
+@media only screen
+and (min-device-width: 1200px)
+and (max-device-width: 1600px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) { .header {width: 450px;
+height: 400px; } }
+
+/* for iphone 6, 7, 8 plus */
+@media only screen 
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {body {background-color: #FFA996;}
+.first {color: #84B395; font-family: 'Do Hyeon';} 
+.two {font-family: 'Do Hyeon';} 
+.three {font-family: 'Do Hyeon';} 
+.four {font-family: 'Do Hyeon';} 
+.five {font-family: 'Do Hyeon'}
+.six {font-family: 'Sen'}
+.ten {font-family: 'Do Hyeon';}
+.twelve {font-family: 'Do Hyeon';}
+.order {visibility: hidden;} 
+.small {visibility: hidden;}
+.truth {visibility: hidden;} }

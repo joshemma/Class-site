@@ -1,10 +1,43 @@
 body
 {background-color: #BAB0FF;
+padding: 50px;
 }
 h1 {text-align: center;
-color: #76B372;
+color: #4681B3;
+font-family: 'Playfair Display', serif;
 }
-header {text-align: center;
+#masthead {text-align: center;
+margin: 8px;
+padding: 30px;
+font-family: 'Shrikhand', cursive;
+}
+#two {text-align: center;
+font-size: 200%;
+color: black;
+font-family: 'Shrikhand', cursive;
 }
 nav {text-align: center;
+padding: 10px;
+font-family: 'Playfair Display', serif;
+}
+#grid-container {
+display: grid;
+grid-template-columns: auto auto auto;
+grid-template-rows: repeat(6,auto);
+padding: 10px;
+}
+.grid-item {
+border: 1px;
+padding: 20px;
+font-size: 30px;
+text-align: center;
+
+}
+.grid-item2{
+border: 1px solid black;
+padding: 20px;
+font-size: 20px;
+font-family: 'Playfair Display', serif;
+text-align: center;
+
 }

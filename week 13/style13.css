@@ -1,0 +1,186 @@
+body
+{background-color: #BAB0FF;
+padding: 50px;
+}
+h1 {text-align: center;
+color: #4681B3;
+font-family: 'Playfair Display', serif;
+}
+#masthead {text-align: center;
+margin: 8px;
+padding: 30px;
+font-family: 'Shrikhand', cursive;
+}
+#two {text-align: center;
+font-size: 200%;
+color: black;
+font-family: 'Shrikhand', cursive;
+}
+nav {text-align: center;
+padding: 10px;
+font-family: 'Playfair Display', serif;
+}
+#grid-container {
+display: grid;
+grid-template-columns: auto auto auto;
+grid-template-rows: repeat(6,auto);
+padding: 10px;
+}
+
+.grid-item1{
+margin-left: auto;
+margin-right: auto;
+margin-bottom: auto;
+margin-top: auto;
+border: 1px;
+padding: 5px;
+}
+
+.grid-item2{
+border: 3px;
+border-color: #4681B3;
+padding: 20px;
+margin:5px;
+font-size: 20px;
+font-family: 'Playfair Display', serif;
+text-align: center;
+background-color: #9CFFFD;
+
+}
+.grid-item3 {
+margin-left: auto;
+margin-right: auto;
+margin-bottom: auto;
+margin-top: auto;
+border: 1px;
+padding: 5px;
+}
+.grid-item4 {
+border: 1px solid black;
+padding: 20px;
+margin: 5px;
+font-size: 20px;
+font-family: 'Playfair Display', serif;
+text-align: center;
+background-color: #86E87B;
+}
+.grid-item5{
+margin-bottom: auto;
+margin-right: auto;
+margin-top: auto;
+margin-left: auto;
+border: 1px;
+padding: 20px;
+}
+.grid-item6 {
+border: 1px solid black;
+padding: 20px;
+margin: 5px;
+font-size: 20px;
+font-family: 'Playfair Display', serif;
+text-align: center;
+background-color: #FFF293;
+}
+}
+.grid-item7{
+margin-left: auto;
+margin-right: auto;
+margin-bottom: auto;
+margin-top: auto;
+border: 1px;
+padding: 20px;
+}
+.grid-item8{
+border: 1px solid black;
+padding: 20px;
+margin: 5px;
+font-size: 20px;
+font-family: 'Playfair Display', serif;
+text-align: center;
+background-color: #EBAD75;
+}
+.grid-item9 {
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+margin-bottom: auto;
+border: 1px;
+padding: 20px;
+}
+.grid-item10 {
+border: 1px solid black;
+padding: 20px;
+margin: 5px;
+font-size: 20px;
+font-family: 'Playfair Display', serif;
+text-align: center;
+background-color: #FF87A5;
+}	
+.grid-item11 {
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+margin-bottom: auto;
+border: 1px;
+padding: 20px;
+}
+.grid-item12 {
+border: 1px solid black;
+padding: 20px;
+margin: 5px;
+font-size: 20px;
+font-family: 'Playfair Display', serif;
+text-align: center;
+background-color: #9CFFFD;
+}
+.grid-item13{
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+margin-bottom: auto;
+border: 1px;
+padding: 20px;
+}
+.grid-item14{
+border: 1px solid black;
+padding: 20px;
+margin: 5px;
+font-size: 20px;
+font-family: 'Playfair Display', serif;
+text-align: center;
+background-color: #86E87B;
+}
+.grid-item15{
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+margin-bottom: auto;
+border: 1px;
+padding: 20px;
+}
+.grid-item16{
+border: 1px solid black;
+padding: 20px;
+margin: 5px;
+font-size: 20px;
+font-family: 'Playfair Display', serif;
+text-align: center;
+background-color: #FFF293;
+}
+.grid-item17{
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+margin-bottom: auto;
+border: 1px;
+padding: 20px;
+}
+.grid-item18{
+border: 1px solid black;
+padding: 20px;
+margin: 5px;
+font-size: 20px;
+font-family: 'Playfair Display', serif;
+text-align: center;
+background-color: #EBAD75;
+}

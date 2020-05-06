@@ -39,7 +39,7 @@ body
 h1 
 {
 	text-align: center;
-	color: #b4b0c2;
+	color: #7574E8;
 	font-family: 'EB Garamond', serif;
 }
 #masthead 
@@ -48,13 +48,13 @@ h1
 	margin: 8px;
 	padding: 20px;
 	font-family: 'Shrikhand', cursive;
-	color: #C0C0C0;
+	color: #7574E8;
 }
 #two 
 {
 	text-align: center;
 	font-size: 200%;
-	color: #C0C0C0;
+	color: #7574E8;
 	font-family: 'Shrikhand', cursive;
 }
 nav 

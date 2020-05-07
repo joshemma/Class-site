@@ -128,8 +128,6 @@ nav
 	background-color: #0768B0;
 	font-family: 'EB Garamond',serif;
 	text-align: center;
-	align-self: stretch;
-	justify-content: center;
 	display: block;
 	margin-top: 16px;
 	margin-left: 40px;
@@ -148,9 +146,8 @@ nav
 	grid-column-start: 3;
 	grid-column-end: 5;
 	grid-row-start: 11;
-	grid-row-end: 13;
+	grid-row-end: 15;
 	text-align: center;
-	align-items: center;
 	background-color: #13C4E8;
 	font-family: 'EB Garamond', serif;
 	display: block;

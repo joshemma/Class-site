@@ -66,17 +66,9 @@ nav
 {
 	display: grid;
 	grid-template-columns: repeat(8, 1fr);
-	grid-template-rows: repeat(16, 5vw);
+	grid-template-rows: repeat(24, 5vw);
 	grid-gap: 15px;
 	padding: 10px;
-}
-div
-{
-	display: block;
-	margin-top: 16px;
-	margin-left: 40px;
-	margin-bottom: 16px;
-	margin-right: 40px;
 }
 .grid-item 
 {
@@ -114,10 +106,57 @@ div
 }
 .grid-item5
 {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 7;
+	grid-row-end: 11;
+}
+.grid-item6
+{
+	grid-column-start: 5;
+	grid-column-end: 8;
+	grid-row-start: 12;
+	grid-row-end: 18;
+}
+.grid-item7
+{
 	grid-column-start: 5;
 	grid-column-end: 8;
 	grid-row-start: 7;
-	grid-row-end: 10;
+	grid-row-end: 12;
 	text-align: center;
 	background-color: #0768B0;
+	font-family: 'EB Garamond',serif;
+	text-align: center;
+	align-self: stretch;
+	justify-content: center;
+	display: block;
+	margin-top: 16px;
+	margin-left: 40px;
+	margin-bottom: 16px;
+	margin-right: 40px;
+}
+.grid-item8
+{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 11;
+	grid-row-end: 16;
+}
+.grid-item9
+{
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 11;
+	grid-row-end: 13;
+	text-align: center;
+	align-items: center;
+	background-color: #13C4E8;
+	font-family: 'EB Garamond', serif;
+	display: block;
+	margin-top: 16px;
+	margin-left: 40px;
+	margin-bottom: 16px;
+	margin-right: 40px;
+
 }

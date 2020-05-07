@@ -157,3 +157,27 @@ nav
 	margin-right: 40px;
 
 }
+.grid-item10
+{
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 15;
+	grid-row-end: 18;
+}
+.grid-item11
+{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 16;
+	grid-row-end: 18;
+	font-family: 'Shrikhand',cursive;
+	font-size: 200%;
+	background-color: #7574E8;
+	text-align: center;
+	display: block;
+	margin-top: 16px;
+	margin-left: 40px;
+	margin-bottom: 16px;
+	margin-right: 40px;
+
+}

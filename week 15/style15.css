@@ -1,7 +1,14 @@
-<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+
+@font-face {
+	src: url(fonts/AbrilFatface-Regular.ttf);
+	font-family: abril;
+}
 body
 {	margin: 0;
 	padding: 0;
+	background: url(img/midnight.jpg);
+	background: url(img/sunset.jpg);
+	background: url(img/mountain.jpg);
 }
 .Page
 {
@@ -9,8 +16,8 @@ body
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100vh;
-	background: url(img/midnight.jpg);
+	height: 100%;
+	background-color: #CEC2FF;
 	background-size: cover;
 	background-repeat: repeat;
 }
@@ -68,10 +75,8 @@ nav
 #grid-container 
 {
 	display: grid;
-	grid-template-columns: fit-content(8, 1fr);
-	grid-template-columns: 200px 500px [main-start] 1fr [main-end] 100px 20px;
-	grid-template-rows: 100px [main-start] 100px [main-end] 100px;
-	grid-template-rows: fit-content(24, 5vw);
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: repeat(24, 5vw);
 	grid-gap: 15px;
 	padding: 10px;
 }
@@ -131,7 +136,8 @@ nav
 	grid-row-end: 12;
 	text-align: center;
 	background-color: #0768B0;
-	font-family: 'EB Garamond',serif;
+	font-family: 'AbrilFatface-Bold';
+	font-size: 125%;
 	text-align: center;
 	display: block;
 	margin-top: 16px;
@@ -154,7 +160,8 @@ nav
 	grid-row-end: 15;
 	text-align: center;
 	background-color: #13C4E8;
-	font-family: 'EB Garamond', serif;
+	font-family: 'AbrilFatface-Bold';
+	font-size: 125%;
 	display: block;
 	margin-top: 16px;
 	margin-left: 40px;

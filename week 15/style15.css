@@ -6,7 +6,7 @@
 body
 {	margin: 0;
 	padding: 0;
-	background: url(img/midnight.jpg);
+	background: url(img/sunset.jpg);
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -139,7 +139,7 @@ button
 	grid-row-start: 7;
 	grid-row-end: 12;
 	text-align: center;
-	background-color: #0768B0;
+	background-color: #E8A9D7;
 	font-family: 'AbrilFatface-Bold';
 	font-size: 125%;
 	text-align: center;
@@ -188,7 +188,7 @@ button
 	grid-row-end: 18;
 	font-family: 'Shrikhand',cursive;
 	font-size: 200%;
-	background-color: #7574E8;
+	background-color: #FFF1BA;
 	text-align: center;
 	display: block;
 	margin-top: 16px;
